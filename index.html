@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width
+  =device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style-main.css">
+  <title>Kyds Portfolio</title>
+</head>
+<body>
+  <header>
+    <nav class="nav-container">
+        <ul class="nav">
+          <li><a href="http://kyd.one"><img src="assets/logo.svg" alt="" class="logo"></a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+  </header>
+  <main>
+    <!-- JUMBO STARTS -->
+    <div class="jumbo">
+      <div class="intro-text">
+          <div class="hide">
+              <span class="text">Handmade</span>
+          </div>
+          <div class="hide">
+              <span class="text">Human</span>
+          </div>
+      </div>
+      <p>Projects done by Kyd Kitchaiya from Autumn 2020 while diving into the world of programming</p>
+    </div>
+    <!-- <div class="slider"></div> -->
+    
+    <!-- THUMBNAILS START -->
+    <div class="container">
+      <div class="row g-3">
+        <div class="col-sm-6 thumbs ">
+          <a href="http://kyd.one/music-player/" target="blank"  title="Music Player" class="c-music "><img src="assets/equalizer-24px.svg" alt="music icon"></a>
+          <h4>Music Player</h4>
+          <p>HTML, CSS, Javascript</p>
+          <p><a href="https://github.com/kydkit/music-player" target="blank">Github</a></p>
+        </div>
+        <div class="col-sm-6 thumbs">
+          <a href="http://kyd.one/vue-travel-list/" target="blank" title="Travel List" class="c-image"><img src="assets/vue.png" alt="image of vue project"></a>
+          <h4>Travel List</h4>
+          <p>HTML, CSS, Vue.js</p>
+          <p><a href="https://github.com/kydkit/vue-travel-list" target="blank">Github</a></p>
+        </div> 
+      </div>
+
+      <div class="row g-3">
+        <div class="col-sm-6 thumbs" >
+          <a href="http://kyd.one/high-on-hayon" target="blank"  title="High On Hayon" class="c-evap ">
+            <span class="first evaporate">H</span>
+            <span class="second evaporate">I</span>
+            <span class="third evaporate">G</span>
+            <span class="fourth evaporate">H</span>  
+          </a>
+          <h4>High on Hayon</h4>
+          <p>HTML, CSS</p>
+          <p><a href="https://github.com/kydkit/high-on-hayon" target="blank">Github</a></p>
+        </div>
+
+        <div class="col-sm-6 thumbs">
+          <a href="http://kyd.one/architecture-viz/" target="blank" title="Architecture Visualization" class="c-arch"><img src="assets/cubes-solid.svg" alt="architecture icon"></a>
+          <h4>Architecture Renders</h4>
+          <p>HTML, CSS, Javascript</p>
+          <p><a href="https://github.com/kydkit/architecture-viz.git" target="blank">Github</a></p>
+        </div> 
+      </div>
+    </div>
+  </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js" integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ==" crossorigin="anonymous"></script>
+    <script src="handmade/handmadeReveal.js"></script>
+</body>
+</html>

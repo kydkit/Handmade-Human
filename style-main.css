@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eae7e5;
+  font-family: 'Spartan', sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #fff;
+}
+
+a:active {
+  color: white;
+}
+
+.nav-container {
+  margin: 30px 25px;
+  border-bottom: 1px solid black;
+}
+
+.logo {
+  width: 30px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.nav > li {
+  padding-bottom: 20px;
+}
+
+/* JUMBO */
+.jumbo {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 80vh;
+}
+
+.about > p {
+  margin: 20px 40px;
+  max-width: 500px;
+}
+
+.text {
+  color: black;
+  font-weight: 700;
+  font-size: 2.8rem;
+}
+
+.jumbo p {
+  margin-top: 40px;
+  width: 75%;
+}
+
+.hide {
+  overflow: hidden;
+}
+
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
+}
+
+/* THUMBNAIL  */
+.thumbs {
+  margin: 25px 0;
+}
+
+.thumbs > h4 {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.thumbs h4, p, a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-music {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  max-width: 500px;
+  height: 350px;
+  margin: 0 auto;
+}
+
+.c-music > img {
+  width: 80%;
+}
+
+.c-evap {
+  background-color: #0632CB;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: auto;
+  max-width: 500px;
+  height: 350px;
+  margin: 0 auto;
+}
+
+.c-image {
+  overflow: hidden;
+  width: auto;
+  max-width: 500px;
+  max-height: 350px;
+  margin: 0 auto;
+}
+
+.c-arch {
+  background-color: rgb(242, 210, 218);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  max-width: 500px;
+  height: 350px;
+  margin: 0 auto;
+}
+
+.c-arch > img {
+  width: 50%;
+}
+
+/* High On Hayon Animation */
+.evaporate {
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-name: evaporate;
+}
+
+@keyframes evaporate {
+  0% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-800%);
+  }
+}
+
+span.evaporate {
+  color: #fff;
+  font-family: 'Spartan', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.first {
+  height: 30px;
+} 
+
+.second {
+  animation-delay: 50ms;
+  height: 26px;
+} 
+
+.third{
+  height: 30px;
+  animation-delay: 50ms;
+}
+
+.fourth {
+  animation-delay: 50ms;
+  height: 28px;
+}
+
+@media screen 
+  and (min-device-width: 1200px) {
+    .text {
+      font-size: 4rem;
+    }
+  }
